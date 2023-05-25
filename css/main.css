@@ -62,7 +62,7 @@ footer {
 /* Responsive rules */
 
 /* DESKTOP */
-@media all and (min-width:autopx) {
+@media all and (min-width:500px) {
     main.wrapper {
         width: 80%;
         margin: auto;
