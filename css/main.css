@@ -62,12 +62,18 @@ footer {
 /* Responsive rules */
 
 /* DESKTOP */
-@media all and (min-width:500px) {
+@media all and (min-width:autopx) {
     main.wrapper {
         width: 80%;
         margin: auto;
     }
     
+img {
+    border-radius :4px;
+        width: 500px;
+}
+
+
     h1 {
         width: 79%;
         padding-left: 1%;
